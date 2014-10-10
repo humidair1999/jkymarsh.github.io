@@ -68,13 +68,38 @@ textarea {
     -webkit-margin-end: 0;
 }
 
+menu, ol, ul {
+    padding: 0;
+}
+
 h1 {
     font-weight: normal;
-    margin: 0.2em;
+    margin: 0.2em 0;
+}
+
+h2 {
+    font-weight: normal;
+    margin: 0.2em 0;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .block {
     display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.no-bullets {
+    list-style-type: none;
 }
 
 .margin-ends-large {
@@ -102,7 +127,7 @@ h1 {
 }
 
 .text-medium {
-    font-size: 3.0em;
+    font-size: 1.8em;
 }
 
 .text-large {
