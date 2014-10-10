@@ -30,6 +30,18 @@
         </style>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+        <script>
+            /* console shim*/
+            (function () {
+                var f = function () {};
+                if (!window.console) {
+                    window.console = {
+                        log:f, info:f, warn:f, debug:f, error:f
+                    };
+                }
+            })();
+        </script>
     </head>
     <body>
         <!--[if lt IE 7]>

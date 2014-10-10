@@ -1,1 +1,1 @@
-
+console.log('I\'m a web developer currently living in San Francisco. Anticipating a redesign in the near future, but for now, this will have to do. Use the links above to get ahold of me.');
