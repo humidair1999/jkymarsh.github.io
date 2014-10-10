@@ -20,7 +20,14 @@
         <link href='http://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" media="all" href="css/responsive.gs.12col.css" />
         <link rel="stylesheet" href="css/main.css">
+
+        <style>
+        	.debug {
+        		border: 1px solid red;
+        	}
+        </style>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
@@ -28,6 +35,42 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+        <div class="container row debug">
+
+        	<header role="banner" class="row text-center padding-large margin-ends-large debug">
+        		<h1 class="block prata text-large">j. ky marsh</h1>
+
+        		<span class="block prata text-small text-cool">
+        			<span class="margin-sides-small">web developer</span>
+        			<span class="margin-sides-small">ui designer</span>
+        			<span class="margin-sides-small">javascript fanatic</span>
+        		</span>
+        	</header>
+        	
+        	<main role="main" class="row gutters debug">
+        	
+        		<article class="col span_8 debug">
+        	
+        			Content
+        	
+        		</article>
+        	
+        		<aside role="complimentary" class="col span_4 debug">
+        	
+        			Sidebar
+        	
+        		</aside>
+        	
+        	</main>
+        	
+        	<footer role="contentinfo" class="row debug">
+        	
+        		Footer
+        	
+        	</footer>
+
+        </div>
 
         <p>Hello world! This is HTML5 Boilerplate.</p>
 
@@ -68,6 +111,8 @@
 		<div class="logo_left guide_borders">
 			j. ky marsh
 		</div>
+
+		<span class="prata">j. ky marsh</span>
 
 		<div class="logo_right guide_borders">
 			front-end developer<br />
