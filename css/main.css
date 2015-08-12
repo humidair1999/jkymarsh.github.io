@@ -1,14 +1,7 @@
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-
-html,
-button,
-input,
-select,
-textarea {
-    color: #222;
-}
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
+    color: #222;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -34,7 +27,9 @@ hr {
 
 audio,
 canvas,
+iframe,
 img,
+svg,
 video {
     vertical-align: middle;
 }
@@ -49,7 +44,7 @@ textarea {
     resize: vertical;
 }
 
-.browsehappy {
+.browserupgrade {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -61,86 +56,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-* {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-}
 
-menu, ol, ul {
-    padding: 0;
-}
 
-h1 {
-    font-weight: normal;
-    margin: 0.2em 0;
-}
 
-h2 {
-    font-weight: normal;
-    margin: 0.2em 0;
-}
 
-a:link, a:visited, a:active {
-    text-decoration: none;
-}
 
-a:hover {
-    text-decoration: underline;
-}
-
-.block {
-    display: block;
-}
-
-.inline {
-    display: inline;
-}
-
-.no-bullets {
-    list-style-type: none;
-}
-
-.margin-ends-large {
-    margin: 40px 0;
-}
-
-.margin-sides-small {
-    margin: 0 12px;
-}
-
-.padding-large {
-    padding: 12px;
-}
-
-.prata {
-    font-family: 'Prata', serif;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.text-small {
-    font-size: 1.2em;
-}
-
-.text-medium {
-    font-size: 1.8em;
-}
-
-.text-large {
-    font-size: 5.0em
-}
-
-.text-dim {
-    color: #d9d9d9;
-}
-
-.text-cool {
-    color: #235e96;
-}
 
 
 
@@ -168,20 +88,6 @@ a:hover {
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
-.ir {
-    background-color: transparent;
-    border: 0;
-    overflow: hidden;
-    *text-indent: -9999px;
-}
-
-.ir:before {
-    content: "";
-    display: block;
-    width: 0;
-    height: 150%;
-}
 
 .hidden {
     display: none !important;
@@ -232,7 +138,9 @@ a:hover {
    ========================================================================== */
 
 @media print {
-    * {
+    *,
+    *:before,
+    *:after {
         background: transparent !important;
         color: #000 !important;
         box-shadow: none !important;
@@ -252,9 +160,8 @@ a:hover {
         content: " (" attr(title) ")";
     }
 
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
         content: "";
     }
 
@@ -275,10 +182,6 @@ a:hover {
 
     img {
         max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
     }
 
     p,

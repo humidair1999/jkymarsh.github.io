@@ -1,103 +1,33 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!doctype html>
+<html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-        <title>j. ky marsh - web developer, ui designer, javascript fanatic</title>
+        <title>j. ky marsh - front-end developer, ui designer, music fanatic</title>
 
         <meta name="description" content="J. Ky Marsh is a web developer, UI designer, & Javascript fanatic living in San Francisco.">
-        <meta name="keywords" content="J. Ky Marsh, Josh Marsh, front-end developer, FED, UI, UX, user interface, user experience, javascript, web developer, San Fran, San Francisco, Bay Area">
-
-        <meta name="author" content="J. Ky Marsh">
-
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href='http://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
-
-        <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" media="all" href="css/responsive.gs.12col.css" />
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
 
-        <style>
-            .debug {
-                border: 0px solid red;
-            }
-        </style>
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-
-        <script>
-            /* console shim*/
-            (function () {
-                var f = function () {};
-                if (!window.console) {
-                    window.console = {
-                        log:f, info:f, warn:f, debug:f, error:f
-                    };
-                }
-            })();
-        </script>
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div class="container row debug">
-
-            <header role="banner" class="row text-center margin-ends-large debug">
-                <h1 class="col span_12 prata text-large debug">j. ky marsh</h1>
-
-                <span class="row gutters block prata text-small text-cool debug">
-                    <span class="col span_4 debug">web developer</span>
-                    <span class="col span_4 debug">ui designer</span>
-                    <span class="col span_4 debug">javascript fanatic</span>
-                </span>
-            </header>
-
-            <main role="main" class="row debug">
-                <article class="col span_12 debug">
-                    <h2 class="prata text-medium text-center">find me</h2>
-
-                    <ul class="no-bullets row gutters text-center debug">
-                        <li class="col span_3 debug">
-                            <a href="http://twitter.com/jkymarsh" class="prata text-cool text-small">twitter</a>
-                        </li>
-                        <li class="col span_3 debug">
-                            <a href="http://www.facebook.com/jkymarsh" class="prata text-cool text-small">facebook</a>
-                        </li>
-                        <li class="col span_3 debug">
-                            <a href="http://www.linkedin.com/in/jkymarsh" class="prata text-cool text-small">linkedin</a>
-                        </li>
-                        <li class="col span_3 debug">
-                            <a href="http://github.com/jkymarsh" class="prata text-cool text-small">github</a>
-                        </li>
-                    </ul>
-                </article>
-            </main>
-
-            <footer role="contentinfo" class="row debug">
-                <!-- todo? -->
-            </footer>
-
-        </div>
-
-        <script src="js/main.js"></script>
+        <p>Hello world! This is HTML5 Boilerplate.</p>
 
         <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-56523811-1', 'auto');
-          ga('send', 'pageview');
-
+            ga('create', 'UA-56523811-1', 'auto');
+            ga('send', 'pageview');
         </script>
     </body>
 </html>
