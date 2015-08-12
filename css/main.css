@@ -56,6 +56,22 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* webfonts */
+
+@font-face {
+    font-family: 'woodlandthin';
+    src: url('../fonts/woodland-thin-webfont.eot');
+    src: url('../fonts/woodland-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/woodland-thin-webfont.woff2') format('woff2'),
+         url('../fonts/woodland-thin-webfont.woff') format('woff'),
+         url('../fonts/woodland-thin-webfont.ttf') format('truetype'),
+         url('../fonts/woodland-thin-webfont.svg#woodlandthin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* global styles */
+
 html {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -68,12 +84,50 @@ html {
     box-sizing: inherit;
 }
 
-.debug {
-    border: 1px solid red;
+body {
+    font-family: 'woodlandthin', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #414042;
+    font-size: 100%;
 }
 
+a:link, a:visited {
+    color: #414042;
+    text-decoration: none;
+}
 
+a:hover {
+    color: #737575;
+}
 
+a:active {
+    color: #bad2dd;
+}
+
+/* utilities */
+
+.debug {
+    border: 0 solid red;
+}
+
+/* atomic classes */
+
+.mr-a { margin-right: auto; }
+.ml-a { margin-left: auto; }
+
+.mt-sm { margin-top: 0.6em; }
+
+.mt-lg { margin-top: 4em; }
+.mb-lg { margin-bottom: 4em; }
+
+.maw-1-1 { max-width: 100%; }
+
+.ta-c { text-align: center; }
+
+.fz-lg { font-size: 2.4em; }
+
+.c-charcoal { color: #414042; }
 
 
 
