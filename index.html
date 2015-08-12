@@ -6,11 +6,24 @@
 
         <title>j. ky marsh - front-end developer, ui designer, music fanatic</title>
 
-        <meta name="description" content="J. Ky Marsh is a web developer, UI designer, & Javascript fanatic living in San Francisco.">
+        <meta name="description" content="J. Ky Marsh is a web developer, UI designer, and music fanatic living in San Francisco.">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/main.css">
+
+        <script>
+            /* console shim */
+            (function() {
+                var f = function() {};
+
+                if (!window.console) {
+                    window.console = {
+                        log: f, info: f, warn: f, debug: f, error: f
+                    };
+                }
+            }());
+        </script>
 
         <!--[if lt IE 9]>
             <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,6 +65,10 @@
 
             ga('create', 'UA-56523811-1', 'auto');
             ga('send', 'pageview');
+        </script>
+
+        <script>
+            console.log('Yes, I\'m probably available for short-term projects and contracts. No, I don\'t live in Chicago.');
         </script>
     </body>
 </html>
