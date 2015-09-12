@@ -108,7 +108,7 @@ a:active {
 /* utilities */
 
 .debug {
-    border: 0 solid red;
+    border: 1px solid red;
 }
 
 /* atomic classes */
