@@ -263,6 +263,8 @@ hr {
 .fz-xxl { font-size: 3em; }
 .fz-xxxl { font-size: 4em; }
 
+.td-u { text-decoration: underline; }
+
 .c-charcoal { color: #414042; }
 
 .lis-n { list-style: none; }
