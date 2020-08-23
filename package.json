@@ -1,0 +1,22 @@
+{
+  "name": "jkymarsh.github.io",
+  "version": "2.0.0",
+  "description": "Personal and professional website of J. Ky Marsh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkymarsh/jkymarsh.github.io.git"
+  },
+  "engines": {
+    "node": "12.18.2"
+  },
+  "scripts": {
+    "compile-templates": "nunjucks -p . **/*.njk",
+    "watch-templates": "nunjucks -p . -w **/*.njk",
+    "dev": "npm run compile-templates"
+  },
+  "author": "J. Ky Marsh <jkymarsh@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "nunjucks-cli": "^1.0.0"
+  }
+}
