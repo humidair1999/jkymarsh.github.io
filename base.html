@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>J. Ky Marsh - UX/UI Engineer/Designer/Musician/Photographer/Writer</title>
-  <meta name="description" content="J. Ky Marsh is a UX/UI engineer, designer, musician, photographer, and writer living in the Bay Area.">
+  <title>{% block title %}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{% endblock description %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:title" content="">
@@ -12,8 +12,8 @@
   <meta property="og:url" content="">
   <meta property="og:image" content="">
 
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="apple-touch-icon" href="/icon.png">
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="/css/reset.css">
@@ -25,6 +25,20 @@
 </head>
 
 <body>
+  <a href="/photography/">
+    Photography
+  </a>
+
+  <a href="/writing/">
+    Writing
+  </a>
+
+  <a href="/music/">
+    Music
+  </a>
+
+  <br><br>
+
   {% block content %}{% endblock content %}
 </body>
 
