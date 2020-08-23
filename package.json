@@ -10,8 +10,8 @@
     "node": "12.18.2"
   },
   "scripts": {
-    "compile-templates": "nunjucks -p . **/*.njk",
-    "watch-templates": "nunjucks -p . -w **/*.njk",
+    "compile-templates": "nunjucks -p . '**/*.njk'",
+    "watch-templates": "nunjucks -p . -w '**/*.njk'",
     "compile-sass": "node-sass scss/main.scss css/style.css --output-style=compressed",
     "watch-sass": "node-sass -w scss/main.scss css/style.css --output-style=expanded --source-map-embed",
     "bs": "browser-sync start -s",
