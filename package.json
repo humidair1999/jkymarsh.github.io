@@ -12,6 +12,7 @@
   "scripts": {
     "compile-templates": "nunjucks -p . **/*.njk",
     "watch-templates": "nunjucks -p . -w **/*.njk",
+    "bs": "browser-sync start -s",
     "dev": "npm run compile-templates"
   },
   "author": "J. Ky Marsh <jkymarsh@gmail.com>",
