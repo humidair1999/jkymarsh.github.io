@@ -1,324 +1,277 @@
-<!doctype html>
-<html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+{% extends "base.html" %}
 
-        <title>j. ky marsh - ux engineer/ui designer</title>
-
-        <meta name="description" content="J. Ky Marsh is a UX Engineer & UI Designer living in San Francisco.">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/trg.css">
-        <link rel="stylesheet" href="css/simple-line-icons.css">
-        <link rel="stylesheet" href="css/style.css">
-
-        <script>
-            /* console shim */
-            (function() {
-                var f = function() {};
-
-                if (!window.console) {
-                    window.console = {
-                        log: f, info: f, warn: f, debug: f, error: f
-                    };
-                }
-            }());
-        </script>
-
-        <!--[if lt IE 9]>
-            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-        <![endif]-->
-    </head>
-    <body>
-        <div class="container pt-xl pb-xl debug">
-            <nav role="navigation" class="debug">
-                <div class="row debug">
-                    <div class="col span-6-t ta-c
-                        text-align-left-on-tablet
-                        debug">
-                        <a href="https://jkymarsh.com/" class="d-ib debug">
-                            <img src="img/jkymarsh-logo.png" srcset="img/jkymarsh-logo2x.png 2x" class="jkymarsh--logo w-1-1 debug" alt="j ky marsh logo">
-                        </a>
-                    </div>
-
-                    <div class="col span-6-t ta-c
-                        text-align-right-on-tablet
-                        pt-xl
-                        pt-0-tablet
-                        debug">
-                        <ul class="jkymarsh--horizontal-icons cf debug">
-                            <li class="debug">
-                                <a href="https://github.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
-                                    <i class="icon-social-github fz-lg" aria-hidden="true"></i>
-
-                                    <span class="visuallyhidden">Github</span>
-                                </a>
-                            </li>
-                            <li class="debug">
-                                <a href="https://twitter.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
-                                    <i class="icon-social-twitter fz-lg" aria-hidden="true"></i>
-
-                                    <span class="visuallyhidden">Twitter</span>
-                                </a>
-                            </li>
-                            <li class="debug">
-                                <a href="https://www.facebook.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
-                                    <i class="icon-social-facebook fz-lg" aria-hidden="true"></i>
-
-                                    <span class="visuallyhidden">Facebook</span>
-                                </a>
-                            </li>
-                            <li class="debug">
-                                <a href="https://www.linkedin.com/in/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
-                                    <i class="icon-social-linkedin fz-lg" aria-hidden="true"></i>
-
-                                    <span class="visuallyhidden">Linkedin</span>
-                                </a>
-                            </li>
-                            <li class="debug">
-                                <a href="mailto:jkymarsh@gmail.com" class="jkymarsh--horizontal-icons__link debug">
-                                    <i class="icon-envelope-letter fz-lg" aria-hidden="true"></i>
-
-                                    <span class="visuallyhidden">Email</span>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="pt-xxxl pb-xxxl debug">
-                <hr>
+{% block content %}
+<div class="container pt-xl pb-xl debug">
+    <nav role="navigation" class="debug">
+        <div class="row debug">
+            <div class="col span-6-t ta-c
+                text-align-left-on-tablet
+                debug">
+                <a href="https://jkymarsh.com/" class="d-ib debug">
+                    <img src="img/jkymarsh-logo.png" srcset="img/jkymarsh-logo2x.png 2x" class="jkymarsh--logo w-1-1 debug" alt="j ky marsh logo">
+                </a>
             </div>
 
-            <main role="main" class="debug">
-                <section class="debug" role="region" aria-label="">
-                    <h2 class="mb-sm debug">personal statement</h2>
+            <div class="col span-6-t ta-c
+                text-align-right-on-tablet
+                pt-xl
+                pt-0-tablet
+                debug">
+                <ul class="jkymarsh--horizontal-icons cf debug">
+                    <li class="debug">
+                        <a href="https://github.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
+                            <i class="icon-social-github fz-lg" aria-hidden="true"></i>
 
-                    <p class="debug">
-                        My name is Josh (though I tend to go by J. Ky), and I'm a passionate, motivated, neurotic, perfectionistic front-end developer and UI designer who's always looking for my next challenge.
-                    </p>
+                            <span class="visuallyhidden">Github</span>
+                        </a>
+                    </li>
+                    <li class="debug">
+                        <a href="https://twitter.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
+                            <i class="icon-social-twitter fz-lg" aria-hidden="true"></i>
 
-                    <p class="mt-lg debug">
-                        With well over a decade of experience writing code and producing design elements under my belt, I'm at a point in my career where I'm searching for positions that will allow me to share my expertise and really spread my wings when it comes to mastery of my craft. I've produced a number of libraries, tools, and frameworks (all available on <a href="https://github.com/jkymarsh">Github</a>) aimed at improving and simplifying front-end development and UI design, and I'm perpetually interested in developing new tools, philosophies, and design patterns that can elevate the ways we write code and produce software.
-                    </p>
+                            <span class="visuallyhidden">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="debug">
+                        <a href="https://www.facebook.com/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
+                            <i class="icon-social-facebook fz-lg" aria-hidden="true"></i>
 
-                    <p class="mt-lg debug">
-                        My extensive experience with front-end development, combined with my familiarity with design, make me a valuable addition to any team. Furthermore, I can hold my own when it comes to full-stack development, and have produced test-driven applications on a variety of tech stacks, including Ruby on Rails, ASP.NET, and Node.js.
-                    </p>
+                            <span class="visuallyhidden">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="debug">
+                        <a href="https://www.linkedin.com/in/jkymarsh" class="jkymarsh--horizontal-icons__link debug">
+                            <i class="icon-social-linkedin fz-lg" aria-hidden="true"></i>
 
-                    <p class="mt-lg debug">
-                        I'm located in beautiful San Francisco, and I'm always looking for new projects and opportunities.
-                    </p>
-                </section>
+                            <span class="visuallyhidden">Linkedin</span>
+                        </a>
+                    </li>
+                    <li class="debug">
+                        <a href="mailto:jkymarsh@gmail.com" class="jkymarsh--horizontal-icons__link debug">
+                            <i class="icon-envelope-letter fz-lg" aria-hidden="true"></i>
 
-                <section class="mt-xxxl debug" role="region" aria-label="">
-                    <h2 class="mb-sm debug">work experience</h2>
-
-                    <ol class="jkymarsh--job-position-listings debug">
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        UX Engineer (Design),
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Google</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        March 2018 - Present
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    As UX Engineer on the Area 120 team within Google, I work on an early-stage incubated product called AdLingo. In my day-to-day, I work at the intersection of AI/NLP/virtual assistants, front-end development, visual design, prototyping, and UX research, helping to drive this nascent product forward. I've developed a variety of public websites, user interfaces, internal tools, and libraries used across the product and its related projects.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        Creative Engineer,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Google</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        February 2016 - February 2018
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    As Creative Engineer on the Brand Studio team within Google, I worked on a variety of projects across marketing, brand identity, tooling, and infrastructure. I assisted with the design, architecture, and execution of widely-used internal component libraries that have been deployed on dozens of highly-trafficked public websites and web properties. Additionally, I contributed visual and UX design work across these projects, working to ensure coherence with brand identity specifications while creating fresh, intriguing design artifacts.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        Lead Front-End Developer/Instructor,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Dev Bootcamp</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        July 2014 - January 2016
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    As lead front-end developer at Dev Bootcamp, I'm responsible for design and development of the user-facing portions of a variety of web properties, including the official DBC website. I've used a variety of libraries and frameworks across these properties, including a few of my own: nuclide, tiny responsive grid, and lament configurator.
-                                </p>
-
-                                <p class="mt-lg debug">
-                                    In my instructor role, I've taught multitudes of students a variety of web development and design concepts, from OO fundamentals, to Ruby on Rails conventions, to Atomic CSS principles. Dev Bootcamp's curriculum runs the gamut of web development essentials, and as an educator, I've been responsible for conveying these to many cohorts of bright-faced students.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        UX Engineer & UX/UI Designer,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Freelance/Contract</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        December 2010 - Present
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    I often take on freelance/contract UX and UI work, the scope and scale of which vary greatly. I've produced code and applications for Google, Mattel, Aon-Hewitt, Sears, Manifest Digital, and many other companies of various sizes. My emphasis is always producing solid, readable, performant code that scales well, and my perfectionistic attitude assists me in achieving that end goal!
-                                </p>
-                            </div>
-                        </li>
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        Lead Front-End Developer,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Coyote Logistics</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        August 2012 - March 2014
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    As lead front-end developer at Coyote Logistics, I led development of our user-facing codebase and user interfaces. In my role, I was responsible for ensuring the high quality of our code, as well as producing an end-user experience that was stable, fast, and enjoyable to use. I often produced functional prototypes, as well as unit-tested JS and scalable HTML/CSS for use across multiple web applications.
-                                </p>
-
-                                <p class="mt-lg debug">
-                                    Our primary technologies at Coyote were ASP.NET, Backbone.js, Inuit.css, and a variety of testing and build tools.
-                                </p>
-                            </div>
-                        </li>
-                    </ol>
-                </section>
-
-                <section class="mt-xxxl debug" role="region" aria-label="">
-                    <h2 class="mb-sm debug">publications</h2>
-
-                    <ol class="jkymarsh--job-position-listings debug">
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        The Nine Circles of Hell: Front-End Development for Sharepoint,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Self-published</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        March 2013
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                <p class="debug">
-                                    <a href="https://jkymarsh.com/theninecirclesofhell/">The Nine Circles of Hell: Front-End Development for Sharepoint</a> is an eBook on the topic of front-end development using the Microsoft Sharepoint content platform.
-                                </p>
-                            </div>
-                        </li>
-                    </ol>
-                </section>
-
-                <section class="mt-xxxl debug" role="region" aria-label="">
-                    <h2 class="mb-sm debug">certifications</h2>
-
-                    <ol class="jkymarsh--job-position-listings debug">
-                        <li class="debug">
-                            <div class="row debug">
-                                <div class="col span-6-t debug">
-                                    <h4 class="debug">
-                                        Professional Scrum Developer I,
-
-                                        <span class="jkymarsh--job-position-listings__company debug">Scrum.org</span>
-                                    </h4>
-                                </div>
-
-                                <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
-                                    <span class="jkymarsh--job-position-listings__dates debug">
-                                        September 2012
-                                    </span>
-                                </div>
-                            </div>
-
-                            <div class="jkymarsh--job-position-listings__job-description debug">
-                                Professional certification via Scrum.org.
-                            </div>
-                        </li>
-                    </ol>
-                </section>
-
-                <br><br>
-            </main>
+                            <span class="visuallyhidden">Email</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </nav>
 
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <div class="pt-xxxl pb-xxxl debug">
+        <hr>
+    </div>
 
-            ga('create', 'UA-56523811-1', 'auto');
-            ga('send', 'pageview');
-        </script>
+    <main role="main" class="debug">
+        <section class="debug" role="region" aria-label="">
+            <h2 class="mb-sm debug">personal statement</h2>
 
-        <script>
-            console.log('Yes, I\'m probably available for short-term projects and contracts. No, I don\'t live in Chicago.');
-        </script>
-    </body>
-</html>
+            <p class="debug">
+                My name is Josh (though I tend to go by J. Ky), and I'm a passionate, motivated, neurotic, perfectionistic front-end developer and UI designer who's always looking for my next challenge.
+            </p>
+
+            <p class="mt-lg debug">
+                With well over a decade of experience writing code and producing design elements under my belt, I'm at a point in my career where I'm searching for positions that will allow me to share my expertise and really spread my wings when it comes to mastery of my craft. I've produced a number of libraries, tools, and frameworks (all available on <a href="https://github.com/jkymarsh">Github</a>) aimed at improving and simplifying front-end development and UI design, and I'm perpetually interested in developing new tools, philosophies, and design patterns that can elevate the ways we write code and produce software.
+            </p>
+
+            <p class="mt-lg debug">
+                My extensive experience with front-end development, combined with my familiarity with design, make me a valuable addition to any team. Furthermore, I can hold my own when it comes to full-stack development, and have produced test-driven applications on a variety of tech stacks, including Ruby on Rails, ASP.NET, and Node.js.
+            </p>
+
+            <p class="mt-lg debug">
+                I'm located in beautiful San Francisco, and I'm always looking for new projects and opportunities.
+            </p>
+        </section>
+
+        <section class="mt-xxxl debug" role="region" aria-label="">
+            <h2 class="mb-sm debug">work experience</h2>
+
+            <ol class="jkymarsh--job-position-listings debug">
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                UX Engineer (Design),
+
+                                <span class="jkymarsh--job-position-listings__company debug">Google</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                March 2018 - Present
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            As UX Engineer on the Area 120 team within Google, I work on an early-stage incubated product called AdLingo. In my day-to-day, I work at the intersection of AI/NLP/virtual assistants, front-end development, visual design, prototyping, and UX research, helping to drive this nascent product forward. I've developed a variety of public websites, user interfaces, internal tools, and libraries used across the product and its related projects.
+                        </p>
+                    </div>
+                </li>
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                Creative Engineer,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Google</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                February 2016 - February 2018
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            As Creative Engineer on the Brand Studio team within Google, I worked on a variety of projects across marketing, brand identity, tooling, and infrastructure. I assisted with the design, architecture, and execution of widely-used internal component libraries that have been deployed on dozens of highly-trafficked public websites and web properties. Additionally, I contributed visual and UX design work across these projects, working to ensure coherence with brand identity specifications while creating fresh, intriguing design artifacts.
+                        </p>
+                    </div>
+                </li>
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                Lead Front-End Developer/Instructor,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Dev Bootcamp</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                July 2014 - January 2016
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            As lead front-end developer at Dev Bootcamp, I'm responsible for design and development of the user-facing portions of a variety of web properties, including the official DBC website. I've used a variety of libraries and frameworks across these properties, including a few of my own: nuclide, tiny responsive grid, and lament configurator.
+                        </p>
+
+                        <p class="mt-lg debug">
+                            In my instructor role, I've taught multitudes of students a variety of web development and design concepts, from OO fundamentals, to Ruby on Rails conventions, to Atomic CSS principles. Dev Bootcamp's curriculum runs the gamut of web development essentials, and as an educator, I've been responsible for conveying these to many cohorts of bright-faced students.
+                        </p>
+                    </div>
+                </li>
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                UX Engineer & UX/UI Designer,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Freelance/Contract</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                December 2010 - Present
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            I often take on freelance/contract UX and UI work, the scope and scale of which vary greatly. I've produced code and applications for Google, Mattel, Aon-Hewitt, Sears, Manifest Digital, and many other companies of various sizes. My emphasis is always producing solid, readable, performant code that scales well, and my perfectionistic attitude assists me in achieving that end goal!
+                        </p>
+                    </div>
+                </li>
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                Lead Front-End Developer,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Coyote Logistics</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                August 2012 - March 2014
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            As lead front-end developer at Coyote Logistics, I led development of our user-facing codebase and user interfaces. In my role, I was responsible for ensuring the high quality of our code, as well as producing an end-user experience that was stable, fast, and enjoyable to use. I often produced functional prototypes, as well as unit-tested JS and scalable HTML/CSS for use across multiple web applications.
+                        </p>
+
+                        <p class="mt-lg debug">
+                            Our primary technologies at Coyote were ASP.NET, Backbone.js, Inuit.css, and a variety of testing and build tools.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="mt-xxxl debug" role="region" aria-label="">
+            <h2 class="mb-sm debug">publications</h2>
+
+            <ol class="jkymarsh--job-position-listings debug">
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                The Nine Circles of Hell: Front-End Development for Sharepoint,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Self-published</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                March 2013
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        <p class="debug">
+                            <a href="https://jkymarsh.com/theninecirclesofhell/">The Nine Circles of Hell: Front-End Development for Sharepoint</a> is an eBook on the topic of front-end development using the Microsoft Sharepoint content platform.
+                        </p>
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <section class="mt-xxxl debug" role="region" aria-label="">
+            <h2 class="mb-sm debug">certifications</h2>
+
+            <ol class="jkymarsh--job-position-listings debug">
+                <li class="debug">
+                    <div class="row debug">
+                        <div class="col span-6-t debug">
+                            <h4 class="debug">
+                                Professional Scrum Developer I,
+
+                                <span class="jkymarsh--job-position-listings__company debug">Scrum.org</span>
+                            </h4>
+                        </div>
+
+                        <div class="jkymarsh--job-position-listings__dates-container col span-6-t debug">
+                            <span class="jkymarsh--job-position-listings__dates debug">
+                                September 2012
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="jkymarsh--job-position-listings__job-description debug">
+                        Professional certification via Scrum.org.
+                    </div>
+                </li>
+            </ol>
+        </section>
+
+        <br><br>
+    </main>
+</div>
+{% endblock content %}
