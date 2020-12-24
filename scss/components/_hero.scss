@@ -1,0 +1,19 @@
+.jky-c-hero {
+  height: 300px;
+
+  &.jky-c-hero--home {
+    background: green;
+  }
+
+  &.jky-c-hero--photography {
+    background: blue;
+  }
+
+  &.jky-c-hero--music {
+    background: yellow;
+  }
+
+  &.jky-c-hero--writing {
+    background: red;
+  }
+}
