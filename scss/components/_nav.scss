@@ -1,0 +1,27 @@
+.jky-c-nav {
+  width: 100%;
+}
+
+.jky-c-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  > li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.jky-c-nav__main-logo {
+  display: block;
+  width: 100px;
+}
+
+.jky-c-nav__main-logo-img {
+  display: block;
+  width: 100%;
+}
