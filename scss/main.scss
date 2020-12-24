@@ -93,17 +93,11 @@
 
 /* global styles */
 
-html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+@import 'generic/normalize';
+@import 'generic/box-sizing';
+@import 'generic/webkit';
 
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
+
 
 body {
   font-family: "opensans-light", Arial, "Helvetica Neue", Helvetica, sans-serif;
