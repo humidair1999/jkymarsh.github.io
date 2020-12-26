@@ -25,14 +25,18 @@
 @import 'generic/box-sizing';
 @import 'generic/webkit';
 
+@import 'elements/html';
+@import 'elements/body';
+
 @import 'objects/container';
+@import 'objects/main';
 
 @import 'components/header';
 @import 'components/nav';
 @import 'components/hero';
 
 * {
-  // border: 1px solid red;
+  border: 1px solid red;
 }
 
 body {
