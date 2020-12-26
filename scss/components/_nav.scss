@@ -16,9 +16,26 @@
   }
 }
 
+.jky-c-nav__list-link {
+  @include font-opensans-light;
+
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  color: $color-charcoal;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: underline;
+    color: $color-charcoal;
+  }
+}
+
 .jky-c-nav__main-logo {
   display: block;
   width: 120px;
+  text-decoration: none;
 }
 
 .jky-c-nav__main-logo-img {
