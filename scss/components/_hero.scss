@@ -34,3 +34,15 @@
     background-repeat: no-repeat;
   }
 }
+
+.jky-c-hero__title {
+  @include font-ecstasy;
+
+  margin: 0;
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: 3px;
+  font-weight: normal;
+  color: $color-charcoal;
+  text-shadow: -4px -2px 0 #fff;
+}

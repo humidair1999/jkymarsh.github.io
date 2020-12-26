@@ -16,7 +16,10 @@
     iceberg-xlt: #dee9ed
 */
 
+@import 'settings/color';
 @import 'settings/font';
+
+@import 'tools/font';
 
 @import 'generic/normalize';
 @import 'generic/box-sizing';
@@ -29,7 +32,7 @@
 @import 'components/hero';
 
 * {
-  border: 1px solid red;
+  // border: 1px solid red;
 }
 
 body {
