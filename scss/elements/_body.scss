@@ -2,4 +2,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
+  word-wrap: normal;
+  hyphens: auto;
+  color: $color-charcoal;
 }

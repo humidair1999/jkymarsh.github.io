@@ -20,12 +20,12 @@
 
   <link rel="stylesheet" href="/css/style.css">
 
-  <meta name="theme-color" content="#fafafa">
+  <meta name="theme-color" content="#414042">
 </head>
 
 <body>
   <header class="jky-c-header">
-    <nav class="jky-c-nav">
+    <nav class="jky-c-nav" role="navigation">
       <ul class="jky-c-nav__list">
         <li>
           <a href="/resume/" class="jky-c-nav__list-link">
@@ -39,7 +39,8 @@
         </li>
         <li>
           <a href="/" class="jky-c-nav__main-logo">
-            <img src="/img/nav-logo.png" class="jky-c-nav__main-logo-img">
+            <img src="/img/nav-logo.png" class="jky-c-nav__main-logo-img"
+                alt="J. Ky Marsh logo">
           </a>
         </li>
         <li>
@@ -58,8 +59,10 @@
 
   {% block content %}{% endblock content %}
 
-  <footer>
-    footer
+  <footer class="jky-c-footer">
+    <div class="jky-o-container">
+      footer
+    </div>
   </footer>
 </body>
 
