@@ -1,3 +1,7 @@
 .jky-o-page-section {
   margin: 120px 0;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
