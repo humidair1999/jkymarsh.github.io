@@ -32,12 +32,15 @@
 @import 'objects/main';
 @import 'objects/page-section';
 
+@import 'components/headings';
+@import 'components/copy';
 @import 'components/header';
 @import 'components/nav';
 @import 'components/hero';
 @import 'components/footer';
 @import 'components/page-tagline';
+@import 'components/home';
 
 * {
-  // border: 1px solid red;
+  border: 1px solid red;
 }

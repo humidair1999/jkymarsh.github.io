@@ -1,0 +1,12 @@
+.jky-c-headings {
+
+  &.jky-c-headings--two {
+    @include font-ecstasy;
+
+    font-size: 46px;
+    letter-spacing: 1px;
+    line-height: normal;
+    font-weight: normal;
+    margin-bottom: 40px;
+  }
+}

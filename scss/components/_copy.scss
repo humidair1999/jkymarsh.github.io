@@ -1,0 +1,14 @@
+.jky-c-copy {
+
+  &.jky-c-copy--paragraph {
+    margin: 40px 0;
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    hyphens: none;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
