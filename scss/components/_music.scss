@@ -1,0 +1,70 @@
+.jky-c-music-releases-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    display: flex;
+    margin-top: 40px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.jky-c-music-releases-list__cover {
+  flex: 0 0 300px;
+  margin-right: 40px;
+}
+
+.jky-c-music-releases-list__cover-img {
+  display: block;
+  width: 100%;
+}
+
+.jky-c-music-releases-list__content {
+  flex: 1;
+}
+
+.jky-c-music-releases-list__content-title,
+.jky-c-music-releases-list__content-year,
+.jky-c-music-releases-list__content-role,
+.jky-c-music-releases-list__content-credits {
+  display: block;
+  line-height: normal;
+}
+
+.jky-c-music-releases-list__content-title {
+  @include font-opensans-semibolditalic;
+
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.jky-c-music-releases-list__content-year {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.jky-c-music-releases-list__content-role {
+  margin-bottom: 10px;
+}
+
+.jky-c-music-releases-list__content-credits {
+  margin-bottom: 30px;
+}
+
+.jky-c-music-releases-list__content-streaming-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  > li {
+    display: inline-block;
+  }
+}
+
+.jky-c-music-releases-list__content-streaming-links-link {
+  line-height: normal;
+}
