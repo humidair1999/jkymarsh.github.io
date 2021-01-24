@@ -1,7 +1,5 @@
 .jky-c-music-releases-list {
   list-style: none;
-  padding: 0;
-  margin: 0;
 
   > li {
     display: flex;
@@ -57,11 +55,14 @@
 
 .jky-c-music-releases-list__content-streaming-links {
   list-style: none;
-  padding: 0;
-  margin: 0;
 
   > li {
     display: inline-block;
+    margin-left: 12px;
+
+    &:first-child {
+      margin-left: 0;
+    }
   }
 }
 

@@ -1,0 +1,35 @@
+.jky-c-writing-work-buttons-list {
+  list-style: none;
+  margin: 40px 0;
+
+  > li {
+    display: inline-block;
+    margin-left: 4px;
+
+    &:first-child {
+      margin-left: 0;
+    }
+  }
+}
+
+.jky-c-writing-work-buttons-list__button {
+  @include font-opensans-lightitalic;
+
+  padding: 10px;
+  cursor: pointer;
+  background: $color-smoky-quartz;
+  border: 1px solid $color-smoky-quartz-dk;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: normal;
+
+  &.is-active {
+    background: $color-iceberg;
+    border: 1px solid $color-iceberg-dk;
+  }
+}
+
+.jky-c-writing-work-iframe {
+  width: 100%;
+  height: 800px;
+}
