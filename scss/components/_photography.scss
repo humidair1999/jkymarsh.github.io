@@ -1,0 +1,39 @@
+.jky-c-photography-photos-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  > li {
+    width: calc(33.3333% - 20px);
+    // height: 100%;
+    // border-radius: 4px;
+    flex-grow: 1;
+    margin: 20px 10px;
+    // border: 1px solid blue;
+  }
+}
+
+.jky-c-photography-photos-list__item {
+  width: 100%;
+  // border: 1px solid red;
+}
+
+.jky-c-photography-photos-list__item-photo {
+  width: 100%;
+}
+
+.jky-c-photography-photos-list__item-photo-img {
+  width: 100%;
+  display: block;
+}
+
+.jky-c-photography-photos-list__item-text {
+  display: block;
+  text-align: center;
+  margin-top: 6px;
+}
+
+.jky-c-photography-photos-list__item-text-link {
+  // display: block;
+}
