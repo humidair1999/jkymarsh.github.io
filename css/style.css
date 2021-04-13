@@ -1,1 +1,799 @@
-@font-face{font-family:'Ecstasy';src:url("/fonts/Ecstasy.woff") format("woff"),url("/fonts/Ecstasy.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'Woodland-Bold';src:url("/fonts/Woodland-Bold.woff") format("woff"),url("/fonts/Woodland-Bold.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'Woodland-Outline';src:url("/fonts/Woodland-Outline.woff") format("woff"),url("/fonts/Woodland-Outline.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'Woodland-Thin';src:url("/fonts/Woodland-Thin.woff") format("woff"),url("/fonts/Woodland-Thin.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-Bold';src:url("/fonts/OpenSans-Bold.woff") format("woff"),url("/fonts/OpenSans-Bold.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-BoldItalic';src:url("/fonts/OpenSans-BoldItalic.woff") format("woff"),url("/fonts/OpenSans-BoldItalic.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-Extrabold';src:url("/fonts/OpenSans-ExtraBold.woff") format("woff"),url("/fonts/OpenSans-ExtraBold.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-ExtraboldItalic';src:url("/fonts/OpenSans-ExtraBoldItalic.woff") format("woff"),url("/fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-Italic';src:url("/fonts/OpenSans-Italic.woff") format("woff"),url("/fonts/OpenSans-Italic.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-Light';src:url("/fonts/OpenSans-Light.woff") format("woff"),url("/fonts/OpenSans-Light.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSansLight-Italic';src:url("/fonts/OpenSans-LightItalic.woff") format("woff"),url("/fonts/OpenSans-LightItalic.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans';src:url("/fonts/OpenSans-Regular.woff") format("woff"),url("/fonts/OpenSans-Regular.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-Semibold';src:url("/fonts/OpenSans-Semibold.woff") format("woff"),url("/fonts/OpenSans-Semibold.woff2") format("woff2");font-weight:normal;font-style:normal}@font-face{font-family:'OpenSans-SemiboldItalic';src:url("/fonts/OpenSans-SemiboldItalic.woff") format("woff"),url("/fonts/OpenSans-SemiboldItalic.woff2") format("woff2");font-weight:normal;font-style:normal}/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:0.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace, monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace, monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type="button"]:-moz-focusring,[type="reset"]:-moz-focusring,[type="submit"]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:0.35em 0.75em 0.625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type="checkbox"],[type="radio"]{box-sizing:border-box;padding:0}[type="number"]::-webkit-inner-spin-button,[type="number"]::-webkit-outer-spin-button{height:auto}[type="search"]{-webkit-appearance:textfield;outline-offset:-2px}[type="search"]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}html{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*,*:before,*:after{-webkit-box-sizing:inherit;-moz-box-sizing:inherit;box-sizing:inherit}*{-webkit-margin-before:0;-webkit-margin-after:0;-webkit-margin-start:0;-webkit-margin-end:0}html{font-family:'OpenSans-Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;font-weight:normal;font-style:normal;font-size:18px;line-height:normal;height:100%}body{height:100%;display:flex;flex-direction:column;word-wrap:normal;hyphens:auto;color:#414042}a{color:#76a6bc}ol,ul{padding:0;margin:0}.jky-o-container{width:100%;max-width:1200px;margin:0 auto}.jky-o-main{margin:80px 0;flex:1}.jky-o-page-section{margin:120px 0}.jky-o-page-section:last-child{margin-bottom:0}.jky-c-headings.jky-c-headings--two{font-family:'Ecstasy', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;font-size:46px;letter-spacing:1px;line-height:normal;font-weight:normal;margin-bottom:40px}.jky-c-copy.jky-c-copy--paragraph{margin:40px 0;display:block;width:100%;max-width:960px;hyphens:none}.jky-c-copy.jky-c-copy--paragraph:last-child{margin-bottom:0}.jky-c-header{width:100%;flex:0 0 150px;max-width:720px;margin:0 auto;display:flex;align-items:center}.jky-c-nav{width:100%}.jky-c-nav__list{list-style:none;display:flex}.jky-c-nav__list>li{flex:1;display:flex;align-items:center;justify-content:space-around}.jky-c-nav__list-link{font-family:'OpenSans-Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:16px;line-height:normal;font-weight:normal;color:#414042;text-decoration:none}.jky-c-nav__list-link:hover,.jky-c-nav__list-link:focus,.jky-c-nav__list-link:active{text-decoration:underline;color:#414042}.jky-c-nav__main-logo{display:block;width:120px;text-decoration:none}.jky-c-nav__main-logo-img{display:block;width:100%}.jky-c-hero{flex:0 0 300px;background:#fff;display:flex;justify-content:center;align-items:center;width:100%;background-position:center;background-size:cover;background-repeat:no-repeat}.jky-c-hero.jky-c-hero--home{background-image:url(/img/bg/iceberg.jpg)}.jky-c-hero.jky-c-hero--photography{background-image:url(/img/bg/pink-snow.jpg)}.jky-c-hero.jky-c-hero--music{background-image:url(/img/bg/marble-02.jpg)}.jky-c-hero.jky-c-hero--writing{background-image:url(/img/bg/marble-01.jpg)}.jky-c-hero__title{font-family:'Ecstasy', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;margin:0;font-size:60px;line-height:normal;letter-spacing:3px;font-weight:normal;color:#414042;text-shadow:-4px -2px 0 #fff}.jky-c-footer{flex:0 0 120px;background:#ebebec;display:flex;justify-content:center;align-items:center;width:100%}.jky-c-page-tagline{font-family:'OpenSans-Bold', Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:24px;line-height:36px;hyphens:none;max-width:860px;margin:0 auto;text-align:center}.jky-c-home-photo{display:block;width:300px;border-radius:50%;overflow:hidden}.jky-c-home-photo__img{display:block;width:100%}.jky-c-home-company-logos{display:block;width:100%;max-width:960px;margin:0 auto}.jky-c-home-company-logos__img{display:block;width:100%;opacity:0.45}.jky-c-music-releases-list{list-style:none}.jky-c-music-releases-list>li{display:flex;margin-top:40px}.jky-c-music-releases-list>li:first-child{margin-top:0}.jky-c-music-releases-list__cover{flex:0 0 300px;margin-right:40px}.jky-c-music-releases-list__cover-img{display:block;width:100%}.jky-c-music-releases-list__content{flex:1}.jky-c-music-releases-list__content-title,.jky-c-music-releases-list__content-year,.jky-c-music-releases-list__content-role,.jky-c-music-releases-list__content-credits{display:block;line-height:normal}.jky-c-music-releases-list__content-title{font-family:'OpenSans-SemiboldItalic', Arial, 'Helvetica Neue', Helvetica, sans-serif;font-size:28px;margin-bottom:4px}.jky-c-music-releases-list__content-year{font-size:15px;margin-bottom:30px}.jky-c-music-releases-list__content-role{margin-bottom:10px}.jky-c-music-releases-list__content-credits{margin-bottom:30px}.jky-c-music-releases-list__content-streaming-links{list-style:none}.jky-c-music-releases-list__content-streaming-links>li{display:inline-block;margin-left:12px}.jky-c-music-releases-list__content-streaming-links>li:first-child{margin-left:0}.jky-c-music-releases-list__content-streaming-links-link{line-height:normal}.jky-c-writing-work-buttons-list{list-style:none;margin:40px 0}.jky-c-writing-work-buttons-list>li{display:inline-block;margin-left:4px}.jky-c-writing-work-buttons-list>li:first-child{margin-left:0}.jky-c-writing-work-buttons-list__button{font-family:'OpenSansLight-Italic', Arial, 'Helvetica Neue', Helvetica, sans-serif;padding:10px;cursor:pointer;background:#ebebec;border:1px solid #b5b5ba;border-radius:4px;font-size:16px;line-height:normal}.jky-c-writing-work-buttons-list__button.is-active{background:#bad2dd;border:1px solid #76a6bc}.jky-c-writing-work-iframe{width:100%;height:800px}.jky-c-photography-photos-list{list-style:none;display:flex;flex-wrap:wrap;width:100%}.jky-c-photography-photos-list>li{width:calc(33.3333% - 20px);flex-grow:1;margin:20px 10px}.jky-c-photography-photos-list__item{width:100%}.jky-c-photography-photos-list__item-photo{width:100%}.jky-c-photography-photos-list__item-photo-img{width:100%;display:block}.jky-c-photography-photos-list__item-text{display:block;text-align:center;margin-top:6px}
+/* colors and units */
+/* TODO: are these shades correct? */
+/*
+    charcoal: #414042
+    charcoal-lt: #707072
+    charcoal-xlt: #a0a0a1
+
+    smoky quartz: #ebebec
+    smoky quartz-lt: #f1f1f1
+    smoky quartz-xlt: #f6f6f6
+
+    iceberg: #bad2dd
+    iceberg-lt: #cddee4
+    iceberg-xlt: #dee9ed
+*/
+@font-face {
+  font-family: 'Ecstasy';
+  src: url("/fonts/Ecstasy.woff") format("woff"), url("/fonts/Ecstasy.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Woodland-Bold';
+  src: url("/fonts/Woodland-Bold.woff") format("woff"), url("/fonts/Woodland-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Woodland-Outline';
+  src: url("/fonts/Woodland-Outline.woff") format("woff"), url("/fonts/Woodland-Outline.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Woodland-Thin';
+  src: url("/fonts/Woodland-Thin.woff") format("woff"), url("/fonts/Woodland-Thin.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url("/fonts/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-BoldItalic';
+  src: url("/fonts/OpenSans-BoldItalic.woff") format("woff"), url("/fonts/OpenSans-BoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Extrabold';
+  src: url("/fonts/OpenSans-ExtraBold.woff") format("woff"), url("/fonts/OpenSans-ExtraBold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-ExtraboldItalic';
+  src: url("/fonts/OpenSans-ExtraBoldItalic.woff") format("woff"), url("/fonts/OpenSans-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Italic';
+  src: url("/fonts/OpenSans-Italic.woff") format("woff"), url("/fonts/OpenSans-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Light';
+  src: url("/fonts/OpenSans-Light.woff") format("woff"), url("/fonts/OpenSans-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSansLight-Italic';
+  src: url("/fonts/OpenSans-LightItalic.woff") format("woff"), url("/fonts/OpenSans-LightItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("/fonts/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-Semibold';
+  src: url("/fonts/OpenSans-Semibold.woff") format("woff"), url("/fonts/OpenSans-Semibold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiboldItalic';
+  src: url("/fonts/OpenSans-SemiboldItalic.woff") format("woff"), url("/fonts/OpenSans-SemiboldItalic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+* {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+}
+
+html {
+  font-family: 'OpenSans-Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  line-height: normal;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  word-wrap: normal;
+  hyphens: auto;
+  color: #414042;
+}
+
+a {
+  color: #76a6bc;
+}
+
+ol,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.jky-o-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.jky-o-main {
+  margin: 80px 0;
+  flex: 1;
+}
+
+.jky-o-page-section {
+  margin: 120px 0;
+}
+
+.jky-o-page-section:last-child {
+  margin-bottom: 0;
+}
+
+.jky-c-headings.jky-c-headings--two {
+  font-family: 'Ecstasy', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  font-size: 46px;
+  letter-spacing: 1px;
+  line-height: normal;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.jky-c-copy.jky-c-copy--paragraph {
+  margin: 40px 0;
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  hyphens: none;
+}
+
+.jky-c-copy.jky-c-copy--paragraph:last-child {
+  margin-bottom: 0;
+}
+
+.jky-c-header {
+  width: 100%;
+  flex: 0 0 150px;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.jky-c-nav {
+  width: 100%;
+}
+
+.jky-c-nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.jky-c-nav__list > li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.jky-c-nav__list-link {
+  font-family: 'OpenSans-Light', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: normal;
+  color: #414042;
+  text-decoration: none;
+}
+
+.jky-c-nav__list-link:hover, .jky-c-nav__list-link:focus, .jky-c-nav__list-link:active {
+  text-decoration: underline;
+  color: #414042;
+}
+
+.jky-c-nav__main-logo {
+  display: block;
+  width: 120px;
+  text-decoration: none;
+}
+
+.jky-c-nav__main-logo-img {
+  display: block;
+  width: 100%;
+}
+
+.jky-c-hero {
+  flex: 0 0 300px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.jky-c-hero.jky-c-hero--home {
+  background-image: url(/img/bg/iceberg.jpg);
+}
+
+.jky-c-hero.jky-c-hero--photography {
+  background-image: url(/img/bg/pink-snow.jpg);
+}
+
+.jky-c-hero.jky-c-hero--music {
+  background-image: url(/img/bg/marble-02.jpg);
+}
+
+.jky-c-hero.jky-c-hero--writing {
+  background-image: url(/img/bg/marble-01.jpg);
+}
+
+.jky-c-hero__title {
+  font-family: 'Ecstasy', TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  margin: 0;
+  font-size: 60px;
+  line-height: normal;
+  letter-spacing: 3px;
+  font-weight: normal;
+  color: #414042;
+  text-shadow: -4px -2px 0 #fff;
+}
+
+.jky-c-footer {
+  flex: 0 0 120px;
+  background: #ebebec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.jky-c-page-tagline {
+  font-family: 'OpenSans-Bold', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  hyphens: none;
+  max-width: 860px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.jky-c-home-photo {
+  display: block;
+  width: 300px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.jky-c-home-photo__img {
+  display: block;
+  width: 100%;
+}
+
+.jky-c-home-company-logos {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.jky-c-home-company-logos__img {
+  display: block;
+  width: 100%;
+  opacity: 0.45;
+}
+
+.jky-c-music-releases-list {
+  list-style: none;
+}
+
+.jky-c-music-releases-list > li {
+  display: flex;
+  margin-top: 40px;
+}
+
+.jky-c-music-releases-list > li:first-child {
+  margin-top: 0;
+}
+
+.jky-c-music-releases-list__cover {
+  flex: 0 0 300px;
+  margin-right: 40px;
+}
+
+.jky-c-music-releases-list__cover-img {
+  display: block;
+  width: 100%;
+}
+
+.jky-c-music-releases-list__content {
+  flex: 1;
+}
+
+.jky-c-music-releases-list__content-title,
+.jky-c-music-releases-list__content-year,
+.jky-c-music-releases-list__content-role,
+.jky-c-music-releases-list__content-credits {
+  display: block;
+  line-height: normal;
+}
+
+.jky-c-music-releases-list__content-title {
+  font-family: 'OpenSans-SemiboldItalic', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+.jky-c-music-releases-list__content-year {
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.jky-c-music-releases-list__content-role {
+  margin-bottom: 10px;
+}
+
+.jky-c-music-releases-list__content-credits {
+  margin-bottom: 30px;
+}
+
+.jky-c-music-releases-list__content-streaming-links {
+  list-style: none;
+}
+
+.jky-c-music-releases-list__content-streaming-links > li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.jky-c-music-releases-list__content-streaming-links > li:first-child {
+  margin-left: 0;
+}
+
+.jky-c-music-releases-list__content-streaming-links-link {
+  line-height: normal;
+}
+
+.jky-c-writing-work-buttons-list {
+  list-style: none;
+  margin: 40px 0;
+}
+
+.jky-c-writing-work-buttons-list > li {
+  display: inline-block;
+  margin-left: 4px;
+}
+
+.jky-c-writing-work-buttons-list > li:first-child {
+  margin-left: 0;
+}
+
+.jky-c-writing-work-buttons-list__button {
+  font-family: 'OpenSansLight-Italic', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  padding: 10px;
+  cursor: pointer;
+  background: #ebebec;
+  border: 1px solid #b5b5ba;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.jky-c-writing-work-buttons-list__button.is-active {
+  background: #bad2dd;
+  border: 1px solid #76a6bc;
+}
+
+.jky-c-writing-work-iframe {
+  width: 100%;
+  height: 800px;
+}
+
+.jky-c-photography-photos-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 100%;
+}
+
+.jky-c-photography-photos-list > li {
+  flex-grow: 1;
+  margin: 20px 10px;
+  width: calc(33.3333% - 20px);
+}
+
+.instagram-media {
+  width: 100% !important;
+  max-width: none !important;
+  min-width: auto !important;
+  margin: 0 !important;
+}
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAiY3NzL3N0eWxlLmNzcyIsCgkic291cmNlcyI6IFsKCQkic2Nzcy9tYWluLnNjc3MiLAoJCSJzY3NzL3NldHRpbmdzL19jb2xvci5zY3NzIiwKCQkic2Nzcy9zZXR0aW5ncy9fZm9udC5zY3NzIiwKCQkic2Nzcy90b29scy9fZm9udC5zY3NzIiwKCQkic2Nzcy9nZW5lcmljL19ub3JtYWxpemUuc2NzcyIsCgkJInNjc3MvZ2VuZXJpYy9fYm94LXNpemluZy5zY3NzIiwKCQkic2Nzcy9nZW5lcmljL193ZWJraXQuc2NzcyIsCgkJInNjc3MvZWxlbWVudHMvX2h0bWwuc2NzcyIsCgkJInNjc3MvZWxlbWVudHMvX2JvZHkuc2NzcyIsCgkJInNjc3MvZWxlbWVudHMvX2xpbmtzLnNjc3MiLAoJCSJzY3NzL2VsZW1lbnRzL19saXN0cy5zY3NzIiwKCQkic2Nzcy9vYmplY3RzL19jb250YWluZXIuc2NzcyIsCgkJInNjc3Mvb2JqZWN0cy9fbWFpbi5zY3NzIiwKCQkic2Nzcy9vYmplY3RzL19wYWdlLXNlY3Rpb24uc2NzcyIsCgkJInNjc3MvY29tcG9uZW50cy9faGVhZGluZ3Muc2NzcyIsCgkJInNjc3MvY29tcG9uZW50cy9fY29weS5zY3NzIiwKCQkic2Nzcy9jb21wb25lbnRzL19oZWFkZXIuc2NzcyIsCgkJInNjc3MvY29tcG9uZW50cy9fbmF2LnNjc3MiLAoJCSJzY3NzL2NvbXBvbmVudHMvX2hlcm8uc2NzcyIsCgkJInNjc3MvY29tcG9uZW50cy9fZm9vdGVyLnNjc3MiLAoJCSJzY3NzL2NvbXBvbmVudHMvX3BhZ2UtdGFnbGluZS5zY3NzIiwKCQkic2Nzcy9jb21wb25lbnRzL19ob21lLnNjc3MiLAoJCSJzY3NzL2NvbXBvbmVudHMvX211c2ljLnNjc3MiLAoJCSJzY3NzL2NvbXBvbmVudHMvX3dyaXRpbmcuc2NzcyIsCgkJInNjc3MvY29tcG9uZW50cy9fcGhvdG9ncmFwaHkuc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUFB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 */
