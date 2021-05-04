@@ -1,8 +1,11 @@
 .jky-c-header {
   width: 100%;
-  flex: 0 0 150px;
-  max-width: 720px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
+  margin: 30px auto;
+
+  @include bp('sm') {
+    display: flex;
+    align-items: center;
+    flex: 0 0 150px;
+    max-width: 720px;
+  }
 }

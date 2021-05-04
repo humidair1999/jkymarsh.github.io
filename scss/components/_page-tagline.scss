@@ -1,10 +1,18 @@
 .jky-c-page-tagline {
   @include font-opensans-bold;
 
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 26px;
   hyphens: none;
-  max-width: 860px;
+  max-width: 320px;
   margin: 0 auto;
   text-align: center;
+  width: 90%;
+
+  @include bp('sm') {
+    font-size: 24px;
+    line-height: 36px;
+    max-width: 860px;
+    width: 100%;
+  }
 }

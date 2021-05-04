@@ -5,12 +5,50 @@
 .jky-c-nav__list {
   list-style: none;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
   > li {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    margin-top: 6px;
+
+    @include bp('sm') {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+
+    &.jky-c-nav__list-item--resume {
+      order: 2;
+
+      @include bp('sm') {
+        order: 1;
+      }
+    }
+
+    &.jky-c-nav__list-item--photography {
+      order: 3;
+
+      @include bp('sm') {
+        order: 2;
+      }
+    }
+
+    &.jky-c-nav__list-item--logo {
+      order: 1;
+
+      @include bp('sm') {
+        order: 3;
+      }
+    }
+
+    &.jky-c-nav__list-item--music {
+      order: 4;
+    }
+
+    &.jky-c-nav__list-item--writing {
+      order: 5;
+    }
   }
 }
 

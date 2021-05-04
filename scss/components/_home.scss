@@ -1,8 +1,12 @@
 .jky-c-home-photo {
   display: block;
-  width: 300px;
+  width: 240px;
   border-radius: 50%;
   overflow: hidden;
+
+  @include bp('sm') {
+    width: 300px;
+  }
 }
 
 .jky-c-home-photo__img {

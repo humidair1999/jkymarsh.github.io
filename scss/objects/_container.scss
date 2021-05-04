@@ -1,5 +1,10 @@
 .jky-o-container {
-  width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
+  width: 90%;
+  max-width: 480px;
+
+  @include bp('sm') {
+    width: 100%;
+    max-width: 1200px;
+  }
 }

@@ -1,5 +1,5 @@
 .jky-c-hero {
-  flex: 0 0 300px;
+  flex: 0 0 260px;
   background: #fff;
   display: flex;
   justify-content: center;
@@ -8,6 +8,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  @include bp('sm') {
+    flex: 0 0 300px;
+  }
 
   &.jky-c-hero--home {
     background-image: url(/img/bg/iceberg.jpg);
@@ -30,10 +34,14 @@
   @include font-ecstasy;
 
   margin: 0;
-  font-size: 60px;
+  font-size: 48px;
   line-height: normal;
   letter-spacing: 3px;
   font-weight: normal;
   color: $color-charcoal;
   text-shadow: -4px -2px 0 #fff;
+
+  @include bp('sm') {
+    font-size: 60px;
+  }
 }

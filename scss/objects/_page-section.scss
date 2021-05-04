@@ -1,5 +1,9 @@
 .jky-o-page-section {
-  margin: 120px 0;
+  margin: 80px 0;
+
+  @include bp('sm') {
+    margin: 120px 0;
+  }
 
   &:last-child {
     margin-bottom: 0;

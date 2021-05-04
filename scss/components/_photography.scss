@@ -1,13 +1,24 @@
 .jky-c-photography-photos-list {
-  display: flex;
-  flex-wrap: wrap;
   list-style: none;
   width: 100%;
 
+  @include bp('sm') {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   > li {
-    flex-grow: 1;
-    margin: 20px 10px;
-    width: calc(33.3333% - 20px);
+    margin: 20px 0 0;
+
+    &:first-child {
+      margin: 0;
+    }
+
+    @include bp('sm') {
+      flex-grow: 1;
+      margin: 20px 10px;
+      width: calc(33.3333% - 20px);
+    }
   }
 }
 
