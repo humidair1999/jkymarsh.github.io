@@ -3,11 +3,23 @@
   margin: 40px 0;
 
   > li {
-    display: inline-block;
-    margin-left: 4px;
+    margin-top: 4px;
 
     &:first-child {
-      margin-left: 0;
+      margin-top: 0;
+    }
+
+    @include bp('sm') {
+      display: inline-block;
+      margin-left: 4px;
+      margin-top: 0;
+    }
+
+    &:first-child {
+
+      @include bp('sm') {
+        margin-left: 0;
+      }
     }
   }
 }
