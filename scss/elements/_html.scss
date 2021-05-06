@@ -1,10 +1,9 @@
 html {
   @include font-opensans-light;
 
-  font-weight: normal;
-  font-style: normal;
   font-size: 18px;
-  line-height: 26px;
-
+  font-style: normal;
+  font-weight: normal;
   height: 100%;
+  line-height: 26px;
 }

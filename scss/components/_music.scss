@@ -18,7 +18,7 @@
 
   @include bp('sm') {
     flex: 0 0 300px;
-    margin-right: 40px;
+    margin-right: 30px;
   }
 }
 
@@ -73,17 +73,17 @@
       margin-top: 0;
     }
 
-    @include bp('sm') {
-      display: inline-block;
-      margin-left: 12px;
-      margin-top: 0;
-    }
-
-    &:first-child {
+    &:last-child {
 
       @include bp('sm') {
-        margin-left: 0;
+        margin-right: 0;
       }
+    }
+
+    @include bp('sm') {
+      display: inline-block;
+      margin-right: 12px;
+      margin-top: 0 !important;
     }
   }
 }

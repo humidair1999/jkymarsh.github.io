@@ -1,9 +1,9 @@
 body {
-  height: 100%;
+  color: $color-charcoal;
   display: flex;
   flex-direction: column;
-  word-wrap: normal;
+  height: 100%;
   hyphens: auto;
-  color: $color-charcoal;
   padding: 0;
+  word-wrap: normal;
 }

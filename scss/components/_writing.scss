@@ -7,19 +7,16 @@
 
     &:first-child {
       margin-top: 0;
+
+      @include bp('sm') {
+        margin-left: 0;
+      }
     }
 
     @include bp('sm') {
       display: inline-block;
       margin-left: 4px;
-      margin-top: 0;
-    }
-
-    &:first-child {
-
-      @include bp('sm') {
-        margin-left: 0;
-      }
+      margin-top: 0 !important;
     }
   }
 }
@@ -27,13 +24,13 @@
 .jky-c-writing-work-buttons-list__button {
   @include font-opensans-lightitalic;
 
-  padding: 10px;
-  cursor: pointer;
   background: $color-smoky-quartz;
   border: 1px solid $color-smoky-quartz-dk;
   border-radius: 4px;
+  cursor: pointer;
   font-size: 16px;
   line-height: normal;
+  padding: 10px;
 
   &.is-active {
     background: $color-iceberg;
@@ -42,7 +39,7 @@
 }
 
 .jky-c-writing-work-iframe {
-  width: 100%;
   height: 1070px;
   overflow-y: auto;
+  width: 100%;
 }

@@ -16,7 +16,7 @@
 
     @include bp('sm') {
       flex-grow: 1;
-      margin: 20px 10px;
+      margin: 20px 10px !important;
       width: calc(33.3333% - 20px);
     }
   }

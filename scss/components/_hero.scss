@@ -1,13 +1,13 @@
 .jky-c-hero {
-  flex: 0 0 260px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  background-color: #fff;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex: 0 0 260px;
+  justify-content: center;
+  width: 100%;
 
   @include bp('sm') {
     flex: 0 0 300px;
@@ -33,12 +33,12 @@
 .jky-c-hero__title {
   @include font-ecstasy;
 
-  margin: 0;
-  font-size: 48px;
-  line-height: normal;
-  letter-spacing: 3px;
-  font-weight: normal;
   color: $color-charcoal;
+  font-size: 48px;
+  font-weight: normal;
+  letter-spacing: 3px;
+  line-height: normal;
+  margin: 0;
   text-shadow: -4px -2px 0 #fff;
 
   @include bp('sm') {

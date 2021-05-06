@@ -3,10 +3,10 @@
 }
 
 .jky-c-nav__list {
-  list-style: none;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  list-style: none;
 
   @include bp('sm') {
     flex-direction: row;
@@ -16,11 +16,11 @@
     margin-top: 6px;
 
     @include bp('sm') {
-      margin-top: 0;
-      flex: 1;
-      display: flex;
       align-items: center;
+      display: flex;
+      flex: 1;
       justify-content: space-around;
+      margin-top: 0;
     }
 
     &.jky-c-nav__list-item--resume {
@@ -60,24 +60,24 @@
 .jky-c-nav__list-link {
   @include font-opensans-light;
 
-  font-size: 16px;
-  line-height: normal;
-  font-weight: normal;
   color: $color-charcoal;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: normal;
   text-decoration: none;
 
   &:hover,
   &:focus,
   &:active {
-    text-decoration: underline;
     color: $color-charcoal;
+    text-decoration: underline;
   }
 }
 
 .jky-c-nav__main-logo {
   display: block;
-  width: 100px;
   text-decoration: none;
+  width: 100px;
 }
 
 .jky-c-nav__main-logo-img {
